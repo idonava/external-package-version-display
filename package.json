@@ -1,5 +1,5 @@
 {
-  "name": "react-version-display",
+  "name": "external-package-version-display",
   "version": "1.0.0",
   "packageManager": "yarn@3.5.2",
   "main": "./dist/index.js",
