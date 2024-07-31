@@ -1,0 +1,40 @@
+{
+  "name": "react-version-display",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.5.2",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "prettier": {
+    "semi": true,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "bracketSpacing": true,
+    "tabWidth": 2,
+    "printWidth": 80,
+    "trailingComma": "all"
+  },
+  "files": [
+    "src/",
+    "dist/"
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "@types/node": "^20.12.7",
+    "tsup": "8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "lint": "eslint 'src/**/*.{ts,tsx}' --max-warnings=0",
+    "lint:fix": "eslint 'src/**/*.{ts,tsx}' --max-warnings=0 --fix",
+    "build": "tsup",
+    "prepack": "yarn build",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . -w"
+  }
+}
