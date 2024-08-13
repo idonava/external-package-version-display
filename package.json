@@ -1,6 +1,6 @@
 {
   "name": "external-package-version-display",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "packageManager": "yarn@3.5.2",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -23,6 +23,9 @@
     "@emotion/react": "11.11.0",
     "@emotion/styled": "11.11.0",
     "@mui/material": "5.16.6",
+    "external-package-version-display-2": "1.0.1"
+  },
+  "peerDependencies": {
     "external-package-version-display-2": "1.0.1"
   },
   "devDependencies": {
