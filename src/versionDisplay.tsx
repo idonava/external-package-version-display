@@ -5,7 +5,7 @@ import {
 } from "external-package-version-display-2";
 import React from "react";
 
-export const packageVersion = "2.1.4";
+export const packageVersion = "2.1.5";
 export const packageVersionOfExternalPackage2 = packageVersion2;
 
 export const VersionDisplay = () => {
