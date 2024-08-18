@@ -1,6 +1,6 @@
 {
   "name": "external-package-version-display",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "packageManager": "yarn@3.5.2",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -25,10 +25,10 @@
     "@mui/material": "5.16.6"
   },
   "peerDependencies": {
-    "external-package-version-display-2": "1.0.1"
+    "external-package-version-display-2": "^1.0.1"
   },
   "devDependencies": {
-    "external-package-version-display-2": "1.0.1",
+    "external-package-version-display-2": "^1.0.1",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "@types/node": "^20.12.7",
