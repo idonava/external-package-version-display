@@ -959,10 +959,10 @@ execa@^5.0.0:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-external-package-version-display-2@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/external-package-version-display-2/-/external-package-version-display-2-1.0.1.tgz#7483538c1bea916af38338d9a1cc3c845f7a4674"
-  integrity sha512-4sqmPVxO2lrP09tKehnFkp/MXMrlDxk+vCgcBn+ECKK6Fr2rPAHC9MDOjChu06TXnV2STJ2zx+KQvVNTht3X7g==
+external-package-version-display-2@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/external-package-version-display-2/-/external-package-version-display-2-1.0.2.tgz#8a8c01e400f8747b467aec1b7451efd40473640a"
+  integrity sha512-dc57q39tfMGiMutqyNjmQ3JPa6RlzR/CmsUZpg+/o/63+lufRhoypki17fdvErjETVwLJwCZcyLiLxMqWt4DFw==
   dependencies:
     "@emotion/react" "11.11.0"
     "@emotion/styled" "11.11.0"
